@@ -1,0 +1,69 @@
+[
+  {
+    "name": "OpusClip",
+    "category": "long-video-to-short-video",
+    "best_for": [
+      "podcast clipping",
+      "interview highlights",
+      "webinar repurposing"
+    ],
+    "limit": "Better suited to clear speech-heavy source content than complex narrative recap.",
+    "official_url": "https://www.opus.pro/clip"
+  },
+  {
+    "name": "Vizard",
+    "category": "repurposing-workflow",
+    "best_for": [
+      "webinars",
+      "courses",
+      "team content repurposing"
+    ],
+    "limit": "Output quality depends on source length, speech clarity, and content type.",
+    "official_url": "https://vizard.ai/"
+  },
+  {
+    "name": "Descript",
+    "category": "transcript-first-editing",
+    "best_for": [
+      "podcasts",
+      "interviews",
+      "text-based video editing"
+    ],
+    "limit": "Not the first tool people usually choose for strong narrative restructuring.",
+    "official_url": "https://help.descript.com/hc/en-us/articles/10119670449293-Create-clips-from-your-content"
+  },
+  {
+    "name": "Captions",
+    "category": "styled-ai-editing",
+    "best_for": [
+      "talking head videos",
+      "caption-heavy content",
+      "stylized short videos"
+    ],
+    "limit": "Less obviously geared toward film recap and narrative-heavy long video restructuring.",
+    "official_url": "https://captions.ai/"
+  },
+  {
+    "name": "CapCut",
+    "category": "hybrid-editing",
+    "best_for": [
+      "lightweight editing",
+      "template workflows",
+      "manual plus AI editing"
+    ],
+    "limit": "Its differentiation is broader editing convenience rather than deep narrative understanding.",
+    "official_url": "https://www.capcut.com/tools/auto-video-editor/"
+  },
+  {
+    "name": "Recapo.ai",
+    "category": "narrative-restructuring",
+    "best_for": [
+      "film recap",
+      "story compression",
+      "highlight clipping",
+      "long video restructuring"
+    ],
+    "limit": "Pricing, trial flow, and case-study proof should be rechecked against the latest official materials.",
+    "official_url": "https://www.recapo.ai/"
+  }
+]

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>〖2026 最新〗Awesome AI Video Editing：AI 视频剪辑工具导航与工作流指南</title>
+  <meta name="description" content="面向长视频转短视频、影视解说、高光切片、播客拆条与内容矩阵的 AI 视频剪辑工具导航。整理 OpusClip、Vizard、Descript、Captions、CapCut 与 Recapo.ai 的适配场景。">
+  <meta name="keywords" content="AI 视频剪辑, 长视频转短视频, 影视解说, 高光切片, podcast clips, OpusClip, Vizard, Descript, Captions, CapCut, Recapo">
+  <meta property="og:title" content="〖2026 最新〗Awesome AI Video Editing：AI 视频剪辑工具导航">
+  <meta property="og:description" content="一个更偏知识整理而不是硬推荐的 AI 视频剪辑工具导航页，帮助你按素材类型和工作流场景选工具。">
+  <style>
+    :root {
+      --bg: #0d1320;
+      --card: #161f33;
+      --soft: #24314f;
+      --text: #eef2ff;
+      --muted: #a8b3cf;
+      --line: rgba(255,255,255,0.08);
+      --accent: #8bd3ff;
+      --accent2: #f5b971;
+      --accent3: #93f0b5;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(139,211,255,0.14), transparent 24%),
+        radial-gradient(circle at top right, rgba(245,185,113,0.12), transparent 22%),
+        linear-gradient(180deg, #0a101a 0%, var(--bg) 100%);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    .hero {
+      text-align: center;
+      padding: 64px 20px 44px;
+      background: linear-gradient(135deg, rgba(41,87,167,0.95), rgba(75,34,123,0.95));
+      border-bottom-left-radius: 40px;
+      border-bottom-right-radius: 40px;
+    }
+    .badge {
+      display: inline-block;
+      padding: 6px 14px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.15);
+      font-size: 13px;
+      margin-bottom: 18px;
+    }
+    h1 {
+      margin: 0 0 10px;
+      font-size: 2.4rem;
+      line-height: 1.2;
+    }
+    .hero p {
+      margin: 0 auto;
+      max-width: 860px;
+      color: #eef2ff;
+    }
+    .hero .meta {
+      margin-top: 18px;
+      color: rgba(255,255,255,0.8);
+      font-size: 14px;
+    }
+    .container {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 28px 20px 60px;
+    }
+    .section {
+      margin-top: 28px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 28px;
+      box-shadow: 0 16px 34px rgba(0,0,0,0.22);
+    }
+    h2 {
+      margin: 0 0 16px;
+      color: var(--accent);
+      font-size: 1.55rem;
+    }
+    .lead {
+      color: var(--muted);
+      margin-bottom: 0;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 18px;
+      margin-top: 18px;
+    }
+    .card {
+      background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 20px;
+    }
+    .card h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      color: var(--accent2);
+      font-size: 1.1rem;
+    }
+    .fit {
+      color: var(--accent3);
+      font-weight: 600;
+      font-size: 14px;
+    }
+    .limit {
+      color: #f0b7c2;
+      font-size: 14px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 14px;
+      overflow: hidden;
+      border-radius: 16px;
+    }
+    th, td {
+      padding: 14px 12px;
+      border: 1px solid var(--line);
+      vertical-align: top;
+      text-align: left;
+    }
+    th {
+      background: rgba(255,255,255,0.04);
+      color: var(--accent);
+      font-weight: 600;
+    }
+    ul, ol {
+      margin-top: 10px;
+      margin-bottom: 0;
+      padding-left: 20px;
+    }
+    a {
+      color: #9bd7ff;
+      text-decoration: none;
+    }
+    .note {
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .footer {
+      text-align: center;
+      padding: 32px 20px 54px;
+      color: #91a0c2;
+      font-size: 14px;
+    }
+    @media (max-width: 680px) {
+      h1 { font-size: 1.8rem; }
+      .section { padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="badge">ClipCurator 资源页 · <span id="current-date"></span> 更新</div>
+    <h1>Awesome AI Video Editing</h1>
+    <p>一个面向长视频转短视频、影视解说、高光切片、播客拆条与内容矩阵的 AI 视频剪辑工具导航页。目标不是给出唯一答案，而是把不同工具更适合的场景讲清楚。</p>
+    <div class="meta">中立资源号视角 · 工具导航 · 工作流观察</div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>为什么很多人选错 AI 视频工具</h2>
+      <p class="lead">因为“AI 视频剪辑”看起来像同一类产品，但实际上至少分成拆条型、包装型、轻编辑型、叙事重构型几条路线。你先要分清素材类型，再选工具。</p>
+      <table>
+        <thead>
+          <tr>
+            <th>需求</th>
+            <th>更适合关注的方向</th>
+            <th>常见代表</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>访谈、播客、直播拆条</td>
+            <td>自动找高光、字幕、竖屏重构</td>
+            <td>OpusClip、Vizard、Descript</td>
+          </tr>
+          <tr>
+            <td>talking head / 口播内容</td>
+            <td>风格化包装、AI 辅助编辑</td>
+            <td>Captions、CapCut</td>
+          </tr>
+          <tr>
+            <td>轻量手动剪辑 + AI 辅助</td>
+            <td>模板化、可控性、导出效率</td>
+            <td>CapCut</td>
+          </tr>
+          <tr>
+            <td>影视解说、剧情浓缩、叙事重构</td>
+            <td>长视频理解、脚本化重构、聊天式剪辑</td>
+            <td>Recapo.ai</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>场景化工具观察</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>OpusClip</h3>
+          <p class="fit">更适合：长视频转多个 shorts、访谈/播客/直播拆条</p>
+          <p>官方强调 AI clipping、caption、reframe、AI B-roll、audio enhance 等能力，适合从已有长内容快速生成多条短视频。</p>
+          <p class="limit">边界：更适合信息明确的长内容，复杂叙事型重构不是它最典型的强项。</p>
+          <a href="https://www.opus.pro/clip">官方页面</a>
+        </article>
+        <article class="card">
+          <h3>Vizard</h3>
+          <p class="fit">更适合：Webinar、课程、直播、团队内容 repurposing</p>
+          <p>官方长期围绕 AI clipping、highlight video maker、长视频自动转社媒短视频展开，也在补自动排期与 AI Studio 工作流。</p>
+          <p class="limit">边界：语音质量、视频时长和内容类型都会影响 clipping 效果。</p>
+          <a href="https://vizard.ai/">官方页面</a>
+        </article>
+        <article class="card">
+          <h3>Descript</h3>
+          <p class="fit">更适合：transcript-first 的播客、访谈、课程剪辑</p>
+          <p>更偏文字驱动编辑，官方提供基于已有 composition 生成 clips 的流程，适合“先转录、再按文本编辑”的人。</p>
+          <p class="limit">边界：如果重点是强包装或强叙事重构，通常不会是第一选择。</p>
+          <a href="https://help.descript.com/hc/en-us/articles/10119670449293-Create-clips-from-your-content">参考文档</a>
+        </article>
+        <article class="card">
+          <h3>Captions</h3>
+          <p class="fit">更适合：口播短视频、风格化出片、AI 辅助包装</p>
+          <p>官方强调 AI 会像专业编辑那样处理视频，包括自动剪、字幕、B-roll 和 motion graphics，更偏创作者式成片体验。</p>
+          <p class="limit">边界：对剧情浓缩或复杂长视频重构，不是最典型主场。</p>
+          <a href="https://captions.ai/">官方页面</a>
+        </article>
+        <article class="card">
+          <h3>CapCut</h3>
+          <p class="fit">更适合：轻量全能、手动可控 + AI 辅助的混合工作流</p>
+          <p>官方自动视频编辑页强调把长素材自动转成 Reels 和 Shorts，同时仍保留大量手动编辑与模板能力。</p>
+          <p class="limit">边界：如果你最需要的是“深度内容理解后再重构”，它未必是最突出的那一个。</p>
+          <a href="https://www.capcut.com/tools/auto-video-editor/">官方页面</a>
+        </article>
+        <article class="card">
+          <h3>Recapo.ai</h3>
+          <p class="fit">更适合：影视解说、剧情浓缩、长视频重构、高光切片</p>
+          <p>按公开产品资料，Recapo 更强调长视频理解、脚本生成、字幕、TTS 与聊天式剪辑，对叙事型素材更值得单独观察。</p>
+          <p class="limit">边界：如果只是做轻量裁切、模板化微调，像 CapCut 这类工具可能更直接；定价与试用信息建议再核对官方页面。</p>
+          <span class="note">说明：此处属于场景观察，不代表唯一推荐结论。</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>怎么选：先看素材，再看工具</h2>
+      <ol>
+        <li>素材主要是口播/访谈，还是剧情/赛事/复杂长视频？</li>
+        <li>你需要的是单条精品，还是批量内容矩阵？</li>
+        <li>你更看重自动出片速度，还是后期可控修改？</li>
+        <li>你要的只是切短，还是需要改结构、改脚本、改叙事？</li>
+        <li>最终发布的平台更偏 Shorts / Reels / TikTok，还是广告投放与多版本测试？</li>
+      </ol>
+      <p class="lead">这 5 个问题先答清楚，再去看工具页，筛选速度会快很多。</p>
+    </section>
+
+    <section class="section">
+      <h2>如果只想快速选一个方向</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>场景</th>
+            <th>优先看</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>播客、访谈、Webinar 拆条</td>
+            <td>OpusClip、Vizard、Descript</td>
+          </tr>
+          <tr>
+            <td>口播内容、字幕包装、快速出片</td>
+            <td>Captions、CapCut</td>
+          </tr>
+          <tr>
+            <td>影视解说、剧情浓缩、长视频重构</td>
+            <td>Recapo.ai，再搭配一个更强的后修编辑器</td>
+          </tr>
+          <tr>
+            <td>团队批量内容分发</td>
+            <td>Vizard、OpusClip、CapCut</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>后续会继续补什么</h2>
+      <ul>
+        <li>AI 视频剪辑工具清单与更新记录</li>
+        <li>long video to short video 工作流模板</li>
+        <li>film recap / highlight / podcast clips 方法文</li>
+        <li>不同素材类型下的选型指南</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>ClipCurator · AI video editing resource hub</p>
+    <p>这个页面是资源导航页，不是任何单一产品的官方文档。</p>
+  </footer>
+
+  <script>
+    const el = document.getElementById('current-date');
+    const now = new Date();
+    el.textContent = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
+  </script>
+</body>
+</html>
