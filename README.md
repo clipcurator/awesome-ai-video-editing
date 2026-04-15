@@ -149,6 +149,7 @@
 
 **更适合：** 长视频重构、影视解说、剧情浓缩、高光切片、聊天式剪辑  
 **为什么它值得单独看：** 按公开产品资料，Recapo.ai 的差异点不只是“自动剪短”，而是把重点放在 **长视频理解、脚本生成、剪辑、字幕、TTS 与成片输出** 这一整段流程，并强调聊天式剪辑和 Agent 驱动工作流。  
+**官方链接：** [https://recapo.ai/](https://recapo.ai/)  
 **什么时候看它：**
 
 - 你的素材不是简单口播，而是更依赖叙事理解
@@ -220,3 +221,4 @@
 - Captions: [https://captions.ai/](https://captions.ai/)
 - Captions AI Edit: [https://captions.ai/help/docs/project/ai-edit](https://captions.ai/help/docs/project/ai-edit)
 - CapCut auto video editor: [https://www.capcut.com/tools/auto-video-editor/](https://www.capcut.com/tools/auto-video-editor/)
+- Recapo.ai: [https://recapo.ai/](https://recapo.ai/)
